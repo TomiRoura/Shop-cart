@@ -15,7 +15,6 @@ const CartProducts = ({ products }: IProps) => {
       ) : (
         <S.CartProductsEmpty>
           Add some products in the cart <br />
-          :)
         </S.CartProductsEmpty>
       )}
     </S.Container>

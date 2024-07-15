@@ -14,6 +14,7 @@ export const CartButton = styled.button`
   left: 0;
   cursor: pointer;
   z-index: 2;
+  border-radius: 20%;
 
   &:focus-visible {
     outline: 3px solid ${({ theme }) => theme.colors.secondary};
@@ -40,6 +41,7 @@ export const Container = styled.div<IContainer>`
   transition: right 0.2s;
 
   ${CartButton} {
+  
     left: ${({ isOpen }) => (isOpen ? '0' : '-50px')};
     background-color: ${({ theme, isOpen }) =>
       isOpen ? theme.colors.black : theme.colors.primary};
