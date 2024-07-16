@@ -1,9 +1,9 @@
-/* First, Install the needed packages */
+1) First, Install the needed packages 
 npm install
 
-/* Then start the React app */
+2) Then start the React app 
 npm start
 
-/* To run the tests */
+3) To run the tests 
 npm run test
 
