@@ -7,3 +7,4 @@ npm start
 3) To run the tests 
 npm run test
 
+![demo](demo.gif)
